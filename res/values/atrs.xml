@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleProgressBar">
+        <!-- 设置圆环进度条的圆环背景属性，包括颜色与宽度 -->
+        <attr name="circle_color" format="color"/>
+        <attr name="circle_width" format="dimension"/>
+        
+        <!-- 设置圆环进度条的进度条属性，包括颜色与宽度，颜色可以设置3种从而实现一个渐变的效果 -->
+        <attr name="progress_color1" format="color"/>
+        <attr name="progress_color2" format="color"/>
+        <attr name="progress_color3" format="color"/>
+        <attr name="progress_width" format="dimension"/>
+         
+       
+        <!-- 设置圆环进度条百分比是从低到高显示还是从高到低显示 ，默认从低到高，即从0到100 -->
+        <attr name="set_high_to_low" format="boolean"/>
+         
+        <!-- 是否设置圆环进度条中间的内容属性，需要与下面的一组属性配合使用-->
+        <attr name="is_set_top_title" format="boolean"/>
+        <attr name="is_set_mid_content" format="boolean"/>
+        <attr name="is_set_bottom_content" format="boolean"/>
+        
+        <!-- 设置圆环进度条中间的内容属性-->
+        <attr name="top_title" format="string"/>
+        <attr name="bottom_content" format="string"/>
+        <attr name="current_progress" format="float"/>
+        <attr name="max_progress" format="float"/>
+        
+        <attr name="top_title_color" format="color"/>
+        <attr name="mid_progress_color" format="color"/>
+        <attr name="bottom_content_color" format="color"/>
+        <attr name="top_title_text_size" format="dimension"/>
+        <attr name="bottom_content_text_size" format="dimension"/>
+        <attr name="current_progress_text_size" format="dimension"/>
+    
+        
+         <!-- 设置显示圆环的弧度，360度则显示整个圆环-->
+        <attr name="sweep_angle" format="integer"/>
+        <attr name="start_arc" format="float"/>
+        <attr name="end_arc" format="float"/>
+       
+
+    </declare-styleable>
+    
+</resources>

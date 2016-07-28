@@ -1,0 +1,82 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" 
+    xmlns:app="http://schemas.android.com/apk/res/com.htq.circleprogressbar"
+    >
+<LinearLayout
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical">
+    
+<com.htq.circleprogressbar.libary.CircleProgressBar 
+    android:id="@+id/circle_progress_bar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_marginLeft="20dp"
+    app:circle_color="#000"
+    app:circle_width="2dp"
+    app:progress_color1="#f00"
+    app:progress_width="2dp"
+    app:start_arc="90"
+    app:is_set_top_title="true"
+    app:top_title="我的github,欢迎follow,star,fork"
+    app:top_title_color="#000"
+    app:top_title_text_size="12sp"
+    app:is_set_bottom_content="true"
+    app:bottom_content="https://github.com/HuTianQi"
+    app:bottom_content_color="#f00"
+    app:bottom_content_text_size="12sp"/>
+
+<com.htq.circleprogressbar.libary.CircleProgressBar 
+    android:id="@+id/circle_progress_bar_2"
+    android:layout_width="100dp"
+    android:layout_height="100dp" 
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="20dp"
+    app:circle_color="#0f0"
+    app:circle_width="7dp"
+    app:progress_color1="#f00"
+    app:progress_width="2dp"
+    app:start_arc="180"/>
+
+<com.htq.circleprogressbar.libary.CircleProgressBar 
+    android:id="@+id/circle_progress_bar_3"
+    android:layout_width="50dp"
+    android:layout_height="50dp" 
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="20dp"
+    app:circle_color="#0f0"
+    app:circle_width="2dp"
+    app:progress_color1="#f00"
+    app:progress_width="2dp"
+    app:start_arc="270"/>
+
+<com.htq.circleprogressbar.libary.CircleProgressBar 
+    android:id="@+id/circle_progress_bar_4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="20dp"
+    app:circle_color="#0f0"
+    app:circle_width="2dp"
+    app:progress_color1="#FFFF00"
+    app:progress_color2="#008000"
+     app:progress_color3="#FFA500"
+    app:progress_width="7dp"
+    app:start_arc="135"
+    app:max_progress="270"
+   
+    app:is_set_top_title="true"
+    app:top_title="您的等级超越全国"
+    app:top_title_text_size="15sp"
+    app:top_title_color="#000"
+    app:is_set_mid_content="true"
+    app:mid_progress_color="#f00"
+    app:is_set_bottom_content="true"
+    app:bottom_content="万的用户"
+    app:bottom_content_text_size="15sp"/>
+
+</LinearLayout>
+</ScrollView>
