@@ -1,5 +1,5 @@
 # CircleProgressBar
-一个界面漂亮功能强大的圆形进度条，支持多种属性，如圆环的大小颜色，进度条的大小颜色，进度条的颜色支持渐变色处理，支持圆环中间显示三层文本，支持文本的大小，颜色设置，几乎完美的解决wrap_content，具备较强的自适应能力
+一个界面漂亮功能强大的圆形进度条，支持多种属性，如圆环的大小颜色，进度条的大小颜色，进度条的颜色支持渐变色处理，支持圆环中间显示三层文本，即顶部标题，中间的进度值，底部附带内容，支持三层文本的大小，颜色设置，几乎完美的解决wrap_content，具备较强的自适应能力
 
 ![image](https://github.com/HuTianQi/CircleProgressBar/blob/master/CircleProgressBar.gif)
 <br>该控件支持以下功能：
