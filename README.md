@@ -2,7 +2,7 @@
 一个界面漂亮功能强大的圆形进度条，支持多种属性，如圆环的大小颜色，进度条的大小颜色，进度条的颜色支持渐变色处理，支持圆环中间显示三层文本，支持文本的大小，颜色设置，几乎完美的解决wrap_content，具备较强的自适应能力
 
 ![image](https://github.com/HuTianQi/CircleProgressBar/blob/master/CircleProgressBar.gif)
-该控件支持以下功能：
+<br>该控件支持以下功能：
 
 1能够支持设置进度条各种属性，如圆环的大小，颜色，进度条的大小，颜色，进度条的颜色支持设置三种颜色来达到渐变色的效果。<br>
 2圆形进度条的内部支持设置三层文本，即上层的标题，如上图的“您的等级超越全国”，中间层的进度值，如上图的“700”，下层的附带内容，如上图的“万的用户”<br>
@@ -12,7 +12,7 @@
 6具备极强的自适应能力，即wrap_content参数要能够比较完美的适应用户输入的文本的长度。<br>
 
 #如何使用
-Add the following to your attrs.xml file (in res/values):<br>
+Add the following to your attrs.xml file (in res/values):
 
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
