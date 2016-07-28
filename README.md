@@ -13,6 +13,7 @@
 
 #如何使用
 Add the following to your attrs.xml file (in res/values):<br>
+
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="CircleProgressBar">
@@ -63,6 +64,7 @@ Add the following to your attrs.xml file (in res/values):<br>
 <br>xmlns:app="http://schemas.android.com/apk/res/com.htq.circleprogressbar"
 
 3Add the widget code in the appropriate place in your xml file. Here's a sample implementation:
+
 <com.htq.circleprogressbar.libary.CircleProgressBar 
     android:id="@+id/circle_progress_bar"
     android:layout_width="wrap_content"
